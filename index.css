@@ -1,0 +1,48 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    grid-area: 1 / 1 / 1 / 15;
+    justify-items: center;
+    background-color: #121c1a;
+    height: 100%;
+    color: white;
+}
+
+
+#discTab, #settingsTab, #profileTab {
+    background-color: #776b5f;
+    width: 15%;
+    margin: 2% 0;
+    padding: 1% 0;
+    justify-self: start;
+}
+
+.activeTab {
+    background-color: #b46d1e;
+    width: 15%;
+    margin: 2% 0;
+    padding: 1% 0;
+    justify-self: start;
+}
+
+.activeTab a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#discTab a, #settingsTab a, #profileTab a {
+    color: white;
+    text-decoration: none;
+}
