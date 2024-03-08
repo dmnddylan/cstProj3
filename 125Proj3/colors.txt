@@ -1,0 +1,4 @@
+Background Color: #2c2824
+Buttons Inactive: #756d5d
+Buttons Active: #b36f21
+Empty Div: #b3a592

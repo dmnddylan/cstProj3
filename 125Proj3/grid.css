@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nav Menu */
+header {
+    background-color: #1d1c1a;
+}
+
+#nav_menu ul {
+    display: flex;
+    list-style-type: none;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+}
+
+#nav_menu ul #navTab {
+    background-color: #776b5f;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#nav_menu ul #navTab :hover {
+    background-color: #b26f20;
+    border-radius: 5px;
+}
+
+#nav_menu #navTab li {
+    text-align: center;
+    padding: 2% 0;
+}
+
+#nav_menu #navTab .activeTab {
+    background-color: #b26f20;
+    border-radius: 5px;
+}
+
+#nav_menu #navTab li a {
+    color: white;
+}
+
+/* Profile Tab */
+#profTab {
+    background-color: #4a4947;
+    width: 20%;
+}
+
+#profTab li {
+    text-align: center;
+    padding: 2% 0;
+}
+
+#profTab li a {
+    color: white;
+}
+
+/* Game Grid Stuff */
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5% 5%;
+}
+
+#example {
+    background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/440/ss_e3aedb2ab36bba8cfe611b1e0eaa807e4bb2d742.jpg");
+    background-position:center;
+    background-size: 100%;
+    border: 5px solid black;
+}
+
+#buttonBar {
+    display: flex;
+    background: linear-gradient(to bottom, transparent, black);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#buttonBar img {
+    width: 50%;
+}
